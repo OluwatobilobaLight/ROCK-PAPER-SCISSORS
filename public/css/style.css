@@ -1,0 +1,148 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.heading {
+    width: 100%;
+    margin: 30px auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 46px;
+    font-weight: 800;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 28px;
+}
+
+.buttons {
+    /* padding-left: 100px; */
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0px;
+}
+
+#rock {
+    border-radius: 0px;
+    box-shadow: 0px 1px 0px 3px #5b5858;
+    margin-right: 20px;
+    padding: 30px;;
+    background-image: url(/public/img/rock.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    outline: none;
+    background-size: contain;
+}
+
+#rock:active {
+    background-image: url(/public/img/rock.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+}
+
+#paper {
+    border-radius: 0px;
+    box-shadow: 0px 1px 0px 3px #5b5858;
+    outline: none;
+    margin-right: 20px;
+    padding: 30px;;
+    background-image: url(/public/img/paper.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#paper:active{
+    background-image: url(/public/img/paper.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-size: contain;
+}
+
+#scissors {
+    border-radius: 0px;
+    box-shadow: 0px 1px 0px 3px #5b5858;
+    margin-right: 20px;
+    outline: none;
+    padding: 30px;;
+    background-image: url(/public/img/scissors.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#scissors:active{
+    background-image: url(/public/img/scissors.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+}
+
+.playa {
+    height: auto;
+    width: 400px;
+}
+
+.icons {
+    padding: 13px;
+    float: left;
+}
+
+.pwinner, .cpuwinner {
+    margin: 30px 100px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.speech {
+    height: 100px;
+    width: 100px;
+    align-content: center;
+    margin-left: 60px;
+    background-color: white;
+    background-image: url(/public/img/speech.png);
+    margin-top: 60px;
+}
+
+.presults, .cpuresults {
+    width: 330px;
+    height: auto;
+    border: 2px solid #000;
+    justify-content: center;
+    text-align: center;
+    margin-left: 150px;
+    font-size: 3em;
+    /* padding: 30px; */
+    position: relative;
+    top: 25px;
+}
+
+.robochoice {
+    padding-top: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.draw {
+    font-weight: 800;
+    text-align: center;
+    font-size: 24px;
+}
